@@ -3,6 +3,7 @@ package Week1_;
 import java.util.Scanner;
 public class VucutKitleEndeksHesaplama {
   public static void main(String[] args) {
+      // kullanıcı değerlerini tanımlıyoruz
       double kg;
       double boy;
 
@@ -12,10 +13,9 @@ public class VucutKitleEndeksHesaplama {
       System.out.print("Lütfen boyunuzu (metre cinsinde) giriniz:" );
       boy = girdi.nextDouble();
 
+      // hesaplama kısmı
       double indeks = kg / (boy * boy);
       System.out.println("Vücut Kitle Endeksiniz: " + indeks);
-
-
 
   }
 }
