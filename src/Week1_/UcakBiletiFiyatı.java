@@ -4,6 +4,8 @@ public class UcakBiletiFiyatı {
     public static void main(String[] args) {
         int distance,age,type;
 
+        System.out.println ( "Patika havayollarına hoş geldiniz!\n**********************************" );
+
         Scanner input =new Scanner(System.in);
         System.out.print("Mesafeyi km türünden giriniz :");
         distance = input.nextInt();
